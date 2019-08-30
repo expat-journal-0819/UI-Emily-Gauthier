@@ -64,6 +64,10 @@ a{
 	font-family: Arial, Helvetica, sans-serif;
 	letter-spacing: 2px; 
 }
+a:hover{
+	background-image: radial-gradient(circle, #ffd700, #ecd604, #d9d50f, #c6d31a, #b3d125, #96cd3a, #7ac74b, #5fc15a, #33b670, #00a880, #009a8a, #008b8b);
+	color: red;
+}
 
 .signUp{
 	float: right;
@@ -116,6 +120,11 @@ button {
 	position: relative;
 	right: 300px;
 	top: 50px;
+	cursor: pointer;
+}
+button:hover{
+	background-image: radial-gradient(circle, #ffd700, #ecd604, #d9d50f, #c6d31a, #b3d125, #96cd3a, #7ac74b, #5fc15a, #33b670, #00a880, #009a8a, #008b8b);
+	color: purple;
 }
 
 .boxes {
@@ -181,7 +190,7 @@ button {
 
 @media/*HOME PAGE MOBILE*/ (max-width: 500px){
 	a {
-		color: black;
+		color: white;
 	}
 	.homepg{
 		background:rgba(78, 75, 75, 0.5);
@@ -232,6 +241,7 @@ button {
 	background: url(images/mountains.jpg);
 	background-size: 100%;
 }
+
 .Main-content{
 	display: flex;
 	flex-wrap: wrap;
@@ -254,7 +264,7 @@ button {
     margin: 40px 30px 20px 80px; ;
 	padding: 20px;
 	color: white;
-	background:rgba(78, 75, 75, 0.5);
+	background:rgba(22, 22, 22, 0.5);
 }
 .Carl {
 	display: block;
@@ -318,6 +328,10 @@ button {
 	background:rgba(78, 75, 75, 0.5);
 }
 @media /*ABOUT US MOBILE*/ (max-width: 500px){
+	.whole{
+		background-image: url(images/astronomy.jpg);
+	}
+	
 	.about-us, .about-us2, .about-us3, .about-us4, .about-us5 {
 		border: 1px solid black;
 		width: 500px;
